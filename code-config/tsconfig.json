@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowJs": true,
+    "lib": ["dom", "dom.iterable", "ES2022"],
+    "declaration": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "skipLibCheck": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "./dist"
+  },
+  "ts-node": {
+    "files": true
+  },
+  "exclude": ["node_modules", "**/*spec.ts", "**/*test.ts"]
+}
