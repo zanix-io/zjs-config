@@ -202,6 +202,10 @@ module.exports = {
 
     // Disallow the use of Math.pow in favor of the ** operator
     // https://eslint.org/docs/rules/prefer-exponentiation-operator
-    'prefer-exponentiation-operator': 'error'
+    'prefer-exponentiation-operator': 'error',
+
+    // Disallow for the zx config
+    // https://eslint.org/docs/latest/rules/no-template-curly-in-string
+    'no-template-curly-in-string': 'off'
   }
 }
