@@ -25,7 +25,6 @@
     "url": "https://github.com/zanix-io/zjs-config/issues"
   },
   "homepage": "https://github.com/zanix-io/zjs-config#readme",
-  "main": "jest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
