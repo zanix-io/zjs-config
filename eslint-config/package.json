@@ -1,6 +1,6 @@
 {
   "name": "@zanixjs/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "ZanixJS Eslint Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
   "license": "ISC",
@@ -9,7 +9,7 @@
     "url": "git+https://github.com/zanix-io/zjs-config.git"
   },
   "main": "index.js",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",
