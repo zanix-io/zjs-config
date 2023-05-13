@@ -16,10 +16,17 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "outDir": "./dist"
+    "outDir": "./.zanix"
   },
   "ts-node": {
     "files": true
   },
-  "exclude": ["node_modules", "**/*spec.ts", "**/*test.ts", ".zanix"]
+  "exclude": [
+    "node_modules",
+    "**/tests",
+    "**/@tests",
+    "**/*spec.ts",
+    "**/*test.ts",
+    ".zanix"
+  ]
 }
