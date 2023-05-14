@@ -1,9 +1,10 @@
 {
   "name": "@zanixjs/code-config",
-  "version": "1.0.5",
+  "version": "1.0.0-beta.0",
   "description": "ZanixJS Code Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
   "license": "ISC",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zanix-io/zjs-config.git"
@@ -16,7 +17,11 @@
     "ts-node": "^10.9.1",
     "tsc-alias": "1.8.2",
     "tsconfig-paths": "^4.1.2",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "amdefine": "^1.0.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.2",
+    "nodemon": "^2.0.21"
   },
   "files": [
     "*"

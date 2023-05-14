@@ -3,7 +3,7 @@
     "module": "commonjs",
     "allowJs": true,
     "lib": ["dom", "dom.iterable", "ES2022"],
-    "declaration": true,
+    "declaration": false,
     "sourceMap": false,
     "removeComments": true,
     "resolveJsonModule": true,
@@ -16,17 +16,20 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "rootDir": "../../../",
     "outDir": "./.zanix"
   },
   "ts-node": {
     "files": true
   },
   "exclude": [
-    "node_modules",
-    "**/tests",
-    "**/@tests",
-    "**/*spec.ts",
-    "**/*test.ts",
-    ".zanix"
+    "../../../node_modules",
+    "../../../**/tests",
+    "../../../**/@tests",
+    "../../../**/*spec.ts",
+    "../../../**/*test.ts",
+    "../../../index.js",
+    "../../../index.d.ts",
+    "../../../jest.config.js"
   ]
 }
