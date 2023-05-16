@@ -17,7 +17,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "rootDir": "../../../",
-    "outDir": "./.zanix"
+    "outDir": "./.znx"
   },
   "ts-node": {
     "files": true
@@ -28,8 +28,6 @@
     "../../../**/@tests",
     "../../../**/*spec.ts",
     "../../../**/*test.ts",
-    "../../../index.js",
-    "../../../index.d.ts",
     "../../../jest.config.js"
   ]
 }

@@ -111,6 +111,3 @@ dist
 
 # Package lock. To resolve dependencies add "resolutions" in package.json
 package-lock.json
-
-#Zanix
-.zanix

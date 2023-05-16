@@ -6,7 +6,7 @@ module.exports = {
     jest: true
   },
   root: true,
-  ignorePatterns: ['.eslintrc.js', 'index.js', 'index.d.ts', '.eslintrc'],
+  ignorePatterns: ['.eslintrc.js', '.znx', '.eslintrc'],
   extends: [
     'eslint:recommended',
     './rules/best-practices.js',
