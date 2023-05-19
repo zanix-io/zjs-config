@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+######### LINT STAGED ############
+
+# Lightweight shell and GNU utilities compiled for Windows (part of MinGW)
+if [[ "$OSTYPE" == "msys" ]]; then
+    exec >/dev/tty 2>&1
+fi
+
+npx lint-staged --config='@zanixjs/std-config/.lintstagedrc'

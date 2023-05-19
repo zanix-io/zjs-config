@@ -1,0 +1,4 @@
+{
+  "**/*.{js,ts,tsx,jsx}": ["zjs format", "zjs lint"],
+  "**/*.json": "zjs format"
+}

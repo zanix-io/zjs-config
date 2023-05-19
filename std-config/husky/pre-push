@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+######### RUNNING TESTS ###############
+zjs test
+
+if [ "$?" = "1" ]
+then
+  commit=`git log --pretty=format:'%Cred%h%Creset %s' -G "(.only|.skip)" | head -n1`
+  echo "Found test skip. This change was last introduced in:"
+  echo $commit
+  echo "Not pushing. (override with the --no-verify flag)"
+  exit 1
+fi
+exit 0
