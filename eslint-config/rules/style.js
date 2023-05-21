@@ -17,7 +17,7 @@ module.exports = {
 
     // Require function expressions to have a name
     // https://eslint.org/docs/rules/func-names
-    'func-names': 'warn',
+    'func-names': ['warn', 'as-needed'],
 
     // Enforce position of line comments
     // https://eslint.org/docs/rules/line-comment-position
@@ -130,7 +130,7 @@ module.exports = {
       {
         line: {
           exceptions: ['-', '+'],
-          markers: ['-', '+', '?', '!']
+          markers: ['-', '+', '?', '!', '/']
         },
         block: {
           exceptions: ['-', '+'],

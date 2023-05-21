@@ -4,6 +4,9 @@
   "description": "ZanixJS Eslint Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zanix-io/zjs-config.git"
