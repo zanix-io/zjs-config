@@ -1,6 +1,6 @@
 {
-  "name": "@zanixjs/eslint-config",
-  "version": "1.0.3",
+  "name": "@zanix/eslint-config",
+  "version": "1.0.0",
   "description": "ZanixJS Eslint Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
   "license": "ISC",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/zanix-io/zjs-config.git"
   },
   "main": "index.js",
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",
@@ -20,11 +20,12 @@
     "eslint-config-standard-with-typescript": "^34.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "scripts": {
-    "format": "prettier \"**/*\" --write --ignore-path .gitignore --ignore-unknown",
-    "lint": "eslint . --fix"
+    "format": "npx prettier \"**/*\" --write --ignore-path .gitignore --ignore-unknown",
+    "lint": "npx eslint . --fix"
   },
   "files": [
     "*"
