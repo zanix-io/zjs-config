@@ -7,4 +7,4 @@ if [[ "$OSTYPE" == "msys" ]]; then
     exec >/dev/tty 2>&1
 fi
 
-npx lint-staged --config='@zanixjs/std-config/.lintstagedrc'
+npx lint-staged --config='@zanix/std-config/.lintstagedrc'

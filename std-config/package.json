@@ -1,6 +1,6 @@
 {
-  "name": "@zanixjs/std-config",
-  "version": "1.0.0-beta.1",
+  "name": "@zanix/std-config",
+  "version": "1.0.0",
   "description": "ZanixJS Standard Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
   "license": "ISC",
@@ -12,18 +12,22 @@
     "url": "git+https://github.com/zanix-io/zjs-config.git"
   },
   "dependencies": {
-    "@types/jest": "^29.4.0",
-    "jest": "^29.5.0",
-    "prettier": "2.8.4",
-    "ts-jest": "^29.0.5",
+    "amdefine": "^1.0.1"
+  },
+  "optionalDependencies": {
+    "nodemon": "^2.0.21",
     "ts-node": "^10.9.1",
     "tsc-alias": "1.8.2",
     "tsconfig-paths": "^4.1.2",
-    "typescript": "^4.9.5",
-    "amdefine": "^1.0.1",
-    "husky": "^8.0.0",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0"
+  },
+  "peerDependencies": {
+    "@types/jest": "^29.4.0",
     "lint-staged": "^13.1.2",
-    "nodemon": "^2.0.21"
+    "prettier": "^2.8.4",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
   },
   "files": [
     "*"
