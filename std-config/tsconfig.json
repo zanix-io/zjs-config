@@ -17,7 +17,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "rootDir": "../../../",
-    "outDir": "./.znx"
+    "outDir": "../../../.znx"
   },
   "ts-node": {
     "files": true
