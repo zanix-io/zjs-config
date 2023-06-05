@@ -297,6 +297,26 @@ module.exports = {
 
     // Require a Symbol description
     // https://eslint.org/docs/rules/symbol-description
-    'symbol-description': 'error'
-  }
+    'symbol-description': 'error',
+
+    // Disallow modifying the rule 'no-restricted-syntax'
+    // https://eslint.org/docs/latest/rules/no-restricted-properties
+    'no-restricted-properties': [
+      'error',
+      {
+        object: 'module',
+        property: 'exports',
+        message:
+          'If you ignore this error, distribution compilation will fail. Use the ES syntax.'
+      }
+    ]
+  },
+  overrides: [
+    {
+      files: ['jest.config.js'],
+      rules: {
+        'no-restricted-properties': 'off'
+      }
+    }
+  ]
 }

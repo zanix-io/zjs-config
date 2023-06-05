@@ -1,6 +1,6 @@
 {
   "name": "@zanix/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ZanixJS Eslint Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
   "license": "ISC",

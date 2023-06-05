@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.1] - 2023-06-05
+
 ### Added
 
+- Added no-restricted-properties rule for disallowing `module.exports` use.
 - Added instructions in the readme file
 - Added homepage on pkg json
 
