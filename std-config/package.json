@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ZanixJS Standard Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },

@@ -102,6 +102,22 @@ module.exports = {
         selector: 'TSEnumDeclaration:not([const=true])',
         message:
           "Literal types and enums, in many cases, solve the same problem while enum has some trade-offs that usually literal types don't. Consider using a literal type instead. See https://github.com/vtex/typescript/issues/60 for more information."
+      },
+      // "define" identifier
+      {
+        selector: "Identifier[name='define']",
+        message:
+          "Reserved identifier: Avoid using 'define' to prevent compilation errors during distribution"
+      },
+      {
+        selector: 'Literal[value=/define\\(\\".+\\",\\[/]',
+        message:
+          'Reserved identifier: Avoid using \'define("([^"]+)"\' pattern to prevent compilation errors during distribution'
+      },
+      {
+        selector: 'TemplateElement[value.cooked=/define\\(\\".+\\",\\[/]',
+        message:
+          'Reserved identifier: Avoid using \'define("([^"]+)"\' pattern to prevent compilation errors during distribution'
       }
     ],
 

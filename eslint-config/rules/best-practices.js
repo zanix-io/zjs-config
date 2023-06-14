@@ -299,7 +299,7 @@ module.exports = {
     // https://eslint.org/docs/rules/symbol-description
     'symbol-description': 'error',
 
-    // Disallow modifying the rule 'no-restricted-syntax'
+    // Disallow modifying the rule 'no-restricted-properties'
     // https://eslint.org/docs/latest/rules/no-restricted-properties
     'no-restricted-properties': [
       'error',
