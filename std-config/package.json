@@ -1,6 +1,6 @@
 {
   "name": "@zanix/std-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ZanixJS Standard Config",
   "author": "Ismael Calle - icalle@utp.edu.co",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "@types/jest": "^29.4.0"
   },
   "peerDependencies": {
-    "nodemon": "^2.0.21",
+    "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "tsc-alias": "1.8.2",
     "tsconfig-paths": "^4.1.2",

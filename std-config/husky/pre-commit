@@ -1,10 +1,11 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
 ######### LINT STAGED ############
 
+# TODO: review some windows version OS
 # Lightweight shell and GNU utilities compiled for Windows (part of MinGW)
-if [[ "$OSTYPE" == "msys" ]]; then
-    exec >/dev/tty 2>&1
-fi
+# if [[ "$OSTYPE" == "msys" ]]; then
+#    exec >/dev/tty 2>&1
+# fi
 
 npx lint-staged --config='@zanix/std-config/.lintstagedrc'
