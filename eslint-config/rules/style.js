@@ -118,6 +118,12 @@ module.exports = {
         selector: 'TemplateElement[value.cooked=/define\\(\\".+\\",\\[/]',
         message:
           'Reserved identifier: Avoid using \'define("([^"]+)"\' pattern to prevent compilation errors during distribution'
+      },
+      // Zanix Flags. Ex: /^(?!.*(useCacheProvider|useGlobalPipe|useRunOnStart|useConnectOnStart)).*$/]
+      {
+        selector:
+          'Program > :matches(ExpressionStatement, VariableDeclaration):first-child > Literal[value = /^(?!(useCacheProvider|useGlobalPipe|useRunOnStart|useConnectOnStart|useSetupInteractor|useLifetime:(SINGLETON|TRANSIENT|SCOPED))$)/]',
+        message: 'Zanix Flag not recognized'
       }
     ],
 

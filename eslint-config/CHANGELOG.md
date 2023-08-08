@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Zanix flags
+
 ## [1.0.2] - 2023-06-12
 
 ### Added
