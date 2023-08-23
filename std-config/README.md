@@ -3,7 +3,17 @@
 [![npm version](https://badge.fury.io/js/%40zanix%2Fstd-config.svg)](https://badge.fury.io/js/%40zanix%2Fstd-config)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support and Contributions](#support-and-contributions)
+- [License](#license)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
+
+## Introduction
 
 Zanix Framework Standard Configurations is a package that provides base configurations for various tools commonly used in Zanix Framework projects. It aims to help streamline project setup and provide consistent configurations across different development environments.
 
@@ -54,13 +64,15 @@ Each configuration file can be copied or extended and customized in your project
   }
   ```
 
+## Support and Contributions
+
+For more information on how to use the templates and get started with ZANIX configuration, please refer to the documentation or to the [changelog](./std-config/CHANGELOG.md#changelog).
+
+Contributions are welcome! If you have suggestions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/zanix-io/zjs-config/tree/master/std-config). Pull requests are also appreciated.
+
 ## License
 
 Zanix Framework Standard Configurations is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Contributing
-
-Contributions are welcome! If you have suggestions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/zanix-io/zjs-config/tree/master/std-config). Pull requests are also appreciated.
 
 ## Credits
 
@@ -68,6 +80,8 @@ Zanix Framework Standard Configurations is maintained and sponsored by Zanix Fra
 
 - GitHub: [https://github.com/zanix-io](https://github.com/zanix-io)
 
-## Acknowledgements
+<a name="acknowledgements"></a>
+
+## Acknowledgements ✨
 
 We would like to express our gratitude to the developers of the tools and configurations used in this package. Their work has been instrumental in the development and maintenance of this project.

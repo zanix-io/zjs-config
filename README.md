@@ -1,5 +1,17 @@
 # Zanix Framework Config Repository
 
+Welcome to the Zanix Framework Config documentation! This README provides an overview of the functionality and usage.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- Configuration libraries
+  - [ESLint Configurations](#eslint-configurations)
+  - [Standard Configurations](#standard-configurations)
+- [Support and contributions](#support-and-contributions)
+
+## Introduction
+
 This repository contains the following packages for standardized configurations and linting rules:
 
 - [eslint-config](./eslint-config/README.md): Contains ESLint configurations for maintaining code quality and adhering to coding standards.
@@ -24,6 +36,6 @@ The [std-config](./std-config/README.md) package provides base configurations fo
 
 To use the standard configurations, refer to the [std-config README](./std-config/README.md) for detailed instructions and examples.
 
-## Contributing
+## Support and contributions
 
 If you encounter any issues or have suggestions for improvements, please feel free to open an issue in the respective package repository. Contributions and pull requests are also welcome.
