@@ -7,13 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.2] - 2023-09-12
+
 ### Added
 
 - Coverage excluded
 
 ### Fixed
 
-- ReDoS `nodemon` vulnerability.
+- ReDoS `nodemon` vulnerability solved.
 
 ## [1.0.1] - 2023-06-14
 
