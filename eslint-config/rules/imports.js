@@ -33,6 +33,10 @@ module.exports = {
 
     // Forbid a module from importing itself
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
-    'import/no-self-import': 'error'
+    'import/no-self-import': 'error',
+
+    // No circular dependency error
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
+    'import/no-cycle': 'error'
   }
 }

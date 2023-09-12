@@ -122,7 +122,7 @@ module.exports = {
       // Zanix Flags. Ex: /^(?!.*(useCacheProvider|useGlobalPipe|useRunOnStart|useConnectOnStart)).*$/]
       {
         selector:
-          'Program > :matches(ExpressionStatement, VariableDeclaration):first-child > Literal[value = /^(?!(useCacheProvider|useGlobalPipe|useRunOnStart|useConnectOnStart|useSetupInteractor|useLifetime:(SINGLETON|TRANSIENT|SCOPED))$)/]',
+          'Program > :matches(ExpressionStatement, VariableDeclaration):first-child > Literal[value = /^(?!(useCacheProvider|useTaskerProvider|useGlobalPipe|useRunOnStart|useConnectOnStart|useSetupInteractor|useLifetime:(SINGLETON|TRANSIENT|SCOPED))$)/]',
         message: 'Zanix Flag not recognized'
       }
     ],
