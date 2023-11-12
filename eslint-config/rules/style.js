@@ -119,10 +119,10 @@ module.exports = {
         message:
           'Reserved identifier: Avoid using \'define("([^"]+)"\' pattern to prevent compilation errors during distribution'
       },
-      // Zanix Flags. Ex: /^(?!.*(useCacheProvider|useGlobalPipe|useRunOnStart|useConnectOnStart)).*$/]
+      // Zanix Flags. Ex: /^(?!.*(useGlobalPipe|useModel)).*$/]
       {
         selector:
-          'Program > :matches(ExpressionStatement, VariableDeclaration):first-child > Literal[value = /^(?!(useCacheProvider|useTaskerProvider|useGlobalPipe|useRunOnStart|useConnectOnStart|useSetupInteractor|useLifetime:(SINGLETON|TRANSIENT|SCOPED))$)/]',
+          'Program > :matches(ExpressionStatement, VariableDeclaration):first-child > Literal[value = /^(?!(useGlobalPipe|useModel)$)/]',
         message: 'Zanix Flag not recognized'
       }
     ],
