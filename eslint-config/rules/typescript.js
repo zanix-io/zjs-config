@@ -169,6 +169,20 @@ module.exports = {
         prefer: 'type-imports',
         disallowTypeAnnotations: false
       }
+    ],
+    // https://eslint.org/docs/latest/rules/no-restricted-imports
+    '@typescript-eslint/no-restricted-imports': [
+      'error',
+      {
+        patterns: [
+          {
+            group: ['./*.json', '[a-ps-z]*/**/*.json', '[0-9]*/**/*.json'],
+            message:
+              "You must place json files inside the 'resources' folder, at the root of your project.",
+            caseSensitive: true
+          }
+        ]
+      }
     ]
   }
 }
